@@ -1,1 +1,1 @@
-Testing to track, add file, commit and push. 
+Testing to track, add file, commit, and push. 
