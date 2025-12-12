@@ -1,0 +1,37 @@
+Stephen1922@Stephen MINGW64 /c/PlaywrightAutomation/TestAutomation (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        testing1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Stephen1922@Stephen MINGW64 /c/PlaywrightAutomation/TestAutomation (main)
+$ git add testing1.txt
+
+Stephen1922@Stephen MINGW64 /c/PlaywrightAutomation/TestAutomation (main)
+$ dir
+README.md  test_git_file.txt.txt  testing1.txt
+
+Stephen1922@Stephen MINGW64 /c/PlaywrightAutomation/TestAutomation (main)
+$ git commit -m "testing1.txt"
+[main 0bba34d] testing1.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 testing1.txt
+
+Stephen1922@Stephen MINGW64 /c/PlaywrightAutomation/TestAutomation (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 369 bytes | 369.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Stephen1922/TestAutomation.git
+   91146a6..0bba34d  main -> main
+
+Stephen1922@Stephen MINGW64 /c/PlaywrightAutomation/TestAutomation (main)
+$
